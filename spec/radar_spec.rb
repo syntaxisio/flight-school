@@ -29,6 +29,10 @@ RSpec.describe Radar, ".status_for" do
     it "has weather" do
       expect(status.weather).to eq("Overcast")
     end
+
+    it "tests the truth" do
+      expect(1 + 1).to eq(2)
+    end
   end
 
   context "when the airport cannot be found" do
